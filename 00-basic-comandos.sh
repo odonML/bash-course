@@ -54,4 +54,9 @@ echo $SHELL
 lineas'
 
 
+# -------------- Ejecucion de script --------------
+# Para ejecutar un script de bash, primero debes darle permisos de ejecución. Puedes hacerlo con el comando chmod:
+# chmod +x <nombre_del_script>.sh
 
+# Luego, puedes ejecutar el script usando:
+# ./<nombre_del_script>.sh
