@@ -1,15 +1,17 @@
 #! /bin/bash
+AZUL='\033[34m'
+FIN='\033[0m'
 
-# Constant
+echo -e "${AZUL}Declarar variables constantes${FIN}"
 declare -r URL_API="https://api.github.com/repos/torvalds/linux/commits?per_page=5"
-# URL_API="api" # error variable is read only
+URL_API="api" # error variable is read only
 
-# Integer
+echo -e "${AZUL}Declarar variables enteras${FIN}"
 declare -i AGE=10
 AGE=AGE+8
 echo $AGE
 
-# Array
+echo -e "${AZUL}Declarar variables de array${FIN}"
 declare -a ARRAY=("valor1" "valor2" "valor3")
 echo ${ARRAY[0]}
 
